@@ -115,7 +115,7 @@ BOOTSTRAP3 = {
 # django allauth config
 
 # Adapter (for account operations)
-ACCOUNT_ADAPTER = 'koi.adapter.KoiAccountAdapter'
+ACCOUNT_ADAPTER = 'tuiker.adapter.TuikerAccountAdapter'
 
 # Django allauth mod. Is open for signup?
 ACCOUNT_OPEN_FOR_SIGNUP = False
