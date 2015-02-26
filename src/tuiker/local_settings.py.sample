@@ -1,0 +1,204 @@
+# Settings by environment
+
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
+# Make these unique, and don't share it with anybody.
+# http://www.miniwebtool.com/django-secret-key-generator/
+SECRET_KEY = ""
+NEVERCACHE_KEY = ""
+
+ADMINS = (
+          ('name', 'name@mail.com'),
+)
+
+MANAGERS = ADMINS
+
+# Hosts/domain names that are valid for this site; required if DEBUG is False
+# See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
+ALLOWED_HOSTS = [
+    '*',
+]
+
+
+# Database
+# https://docs.djangoproject.com/en/1.7/ref/settings/#databases
+
+DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': os.path.join(BASE_DIR, '..', 'data', 'tuiker.db'),
+     }
+             
+}
+
+
+# Email settings
+#EMAIL_USE_TLS = True
+#EMAIL_HOST = 'mail.mail.net'
+# For testing... al mails go to console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'localhost'
+EMAIL_HOST_USER = 'mail@mail.net'
+EMAIL_HOST_PASSWORD = 'mailpassword'
+# EMAIL_PORT = 587
+
+
+# FILEBROWSER configuration
+FILEBROWSER_DIRECTORY = 'uploads/'
+
+# Bootstrap 3 settings
+# Default settings
+BOOTSTRAP3 = {
+
+    # The URL to the jQuery JavaScript file
+    # Using local
+#    'jquery_url': '//code.jquery.com/jquery.min.js',
+    'jquery_url': '/static/jquery/jquery-2.1.1.min.js',
+
+    # The Bootstrap base URL
+#    'base_url': '//netdna.bootstrapcdn.com/bootstrap/3.2.0/',
+    'base_url': '/static/bootstrap/3.2.0/',
+
+    # The complete URL to the Bootstrap CSS file (None means derive it from base_url)
+    'css_url': None,
+
+    # The complete URL to the Bootstrap CSS file (None means no theme)
+    'theme_url': None,
+
+    # The complete URL to the Bootstrap JavaScript file (None means derive it from base_url)
+    'javascript_url': None,
+
+    # Put JavaScript in the HEAD section of the HTML document (only relevant if you use bootstrap3.html)
+    'javascript_in_head': False,
+
+    # Include jQuery with Bootstrap JavaScript (affects django-bootstrap3 template tags)
+    'include_jquery': True,
+
+    # Label class to use in horizontal forms
+    'horizontal_label_class': 'col-md-2',
+
+    # Field class to use in horiozntal forms
+    'horizontal_field_class': 'col-md-4',
+
+    # Set HTML required attribute on required fields
+    'set_required': False,
+
+    # Set placeholder attributes to label if no placeholder is provided
+    'set_placeholder': True,
+
+    # Class to indicate required (better to set this in your Django form)
+    'required_css_class': 'bootstrap3-required',
+
+    # Class to indicate error (better to set this in your Django form)
+    'error_css_class': 'bootstrap3-error',
+
+    # Class to indicate success, meaning the field has valid input (better to set this in your Django form)
+    'success_css_class': 'has-success',
+
+    # Renderers (only set these if you have studied the source and understand the inner workings)
+    'formset_renderers':{
+        'default': 'bootstrap3.renderers.FormsetRenderer',
+    },
+    'form_renderers': {
+        'default': 'bootstrap3.renderers.FormRenderer',
+    },
+    'field_renderers': {
+        'default': 'bootstrap3.renderers.FieldRenderer',
+        'inline': 'bootstrap3.renderers.InlineFieldRenderer',
+    },
+}
+
+# django allauth config
+
+# Adapter (for account operations)
+ACCOUNT_ADAPTER = 'koi.adapter.KoiAccountAdapter'
+
+# Django allauth mod. Is open for signup?
+ACCOUNT_OPEN_FOR_SIGNUP = False
+
+
+SOCIALACCOUNT_QUERY_EMAIL = True
+# SOCIALACCOUNT_PROVIDERS = {
+#     'facebook': {
+#         'SCOPE': ['email', 'publish_stream'],
+#         'METHOD': 'js_sdk'  # instead of 'oauth2'
+#     }
+# }
+
+# A tuple of directories where Django looks for translation files.
+# https://docs.djangoproject.com/en/dev/ref/settings/#locale-paths
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, '..', 'src', 'locale'),                
+)
+
+# Colectivo configuration
+COLECTIVO_COUNTRY = 'ES'
+COLECTIVO_COUNTRY_DEFINITION = {}
+
+
+# A sample logging configuration. The only tangible logging
+# performed by this configuration is to send an email to
+# the site admins on every HTTP 500 error when DEBUG=False.
+# See http://docs.djangoproject.com/en/dev/topics/logging for
+# more details on how to customize your logging configuration.
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, '..', 'src', 'debug.log'),
+        },                 
+                 
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        'koi': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'tuiker': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    }
+}
+
+# koi redirect on login
+from django.core.urlresolvers import reverse_lazy
+LOGIN_REDIRECT_URL = reverse_lazy('index')
+

@@ -1,0 +1,33 @@
+{% extends 'frontend/base.html' %}
+
+{% load i18n %}
+
+
+{% block title %}{% trans "Index" %}{% endblock %}
+
+{% block bootstrap3_title %}{% trans "Index" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li>{% trans "Home" %}</li>
+{% endblock %}
+
+
+
+{% block content %}
+<div class="row">
+	<div class="col-md-12">
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">{% trans "News" %}</h3>
+		  </div>
+		  <div class="panel-body">
+			<ul class="list-group">
+			</ul>
+		  </div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+

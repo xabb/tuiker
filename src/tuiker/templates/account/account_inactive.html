@@ -1,0 +1,20 @@
+{% extends 'frontend/base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% autoescape off %}{% trans "Account Inactive" %}{% endautoescape %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li><a href="{% url "index" %}">{% trans "Home" %}</a></li>
+<li class="active">{% autoescape off %}{% trans "Account Inactive" %}{% endautoescape %}</li>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="jumbotron">
+<h3><span class="label label-danger">{% trans "This account is inactive." %}</span></h3>
+</div>
+
+
+{% endblock %}

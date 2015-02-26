@@ -1,0 +1,154 @@
+{% extends 'bootstrap3/bootstrap3.html' %}
+
+{% load url from future %}
+{% load bootstrap3 %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% get_current_language as LANGUAGE_CODE %}
+
+
+{% block bootstrap3_extra_script %}
+
+
+	<!-- i18n -->
+	<script src="{% url 'django.views.i18n.javascript_catalog' %}?language={{ LANGUAGE_CODE }}"></script>
+
+
+	<!-- JS custom functions -->
+    <script src="{% static "js/default.js" %}"></script>
+
+
+
+{% endblock %}
+
+
+{# Add custom styles #}
+{% block bootstrap3_extra_head %}
+
+
+	<!-- Custom styles for this template -->
+    <link href="{% static "css/styles.css" %}" rel="stylesheet">
+ {% endblock %}
+
+
+{% block bootstrap3_content %}
+
+	{% block bootstrap3_menu %}
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">{% trans "Toggle navigation" %}</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          {# TODO: Set logo and so on (copy twitter :-P )#}
+          <a class="navbar-brand" href="{% url 'index' %}">tuiker</a>
+        </div>
+        <div class="navbar-collapse collapse">
+		{% if request.user.is_authenticated %}
+          <ul class="nav navbar-nav">
+
+
+
+
+
+
+
+
+          </ul>
+		{% endif %}
+          <ul class="nav navbar-nav navbar-right">
+
+{# START Language selector #}
+						{% if LANGUAGES|length > 1 %}
+							{% include 'change_language.html' %}            	
+						{% endif %}
+{# END Language selector #}
+
+
+		{% if request.user.is_authenticated %}
+		
+	        <li class="dropdown">
+	            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">{{ user.get_username }}&nbsp;<b class="caret"></b></a>
+	            <ul class="dropdown-menu">
+					{% if request.user.is_staff %}
+		            <li><a href="{% url 'admin:index' %}">{% trans "Django Admin" %}</a></li>
+					{% endif %}
+	            	
+
+		            <li><a href="{% url 'account_change_password' %}">{% trans "Change Password" %}</a></li>
+					<li class="divider"></li>
+		            <li><a href="{% url 'account_logout' %}">{% trans "Logout" %}</a></li>
+	            </ul>
+	        </li>
+
+		{% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+	{% endblock %}
+
+
+    <div class="container">
+
+        {% bootstrap_messages %}
+
+		{% if request.user.is_authenticated %}
+			<h1>{% block title %}{% endblock %}</h1>
+	
+			{% block breadcrumb %}	
+				<ul class="breadcrumb">
+					{% spaceless %}
+					{% block breadcrumb_menu %}{% endblock %}
+					{% endspaceless %}
+				</ul>
+			{% endblock %}
+		{% endif %}
+
+	</div>
+
+	{# container-fluid for extending to the page margins#}
+	<div class="container">
+		<div class="row">
+
+			{#  col-sm-offset-3 col-md-10 col-md-offset-2 #}
+			{#col-md-offset-1 col-lg-10 col-md-offset-1 #}
+			<div class="col-lg-12">
+			    {% block content %}{% endblock %}
+			</div>
+
+
+		</div>
+	</div>
+
+	<footer class="footer" role="contentinfo">
+		{# container-fluid for extending to the page margins#}
+
+		<div class="container-fluid">
+			{% block footer_menu %}
+			{% endblock %}
+
+			<p>{% trans "Designed and built by" %} <a href="http://twitter.com/impalah" target="_blank">@impalah</a>.</p>
+			
+			{# Modified site-info class #}
+			<p class="site-info text-center">
+			    {% trans "Powered by" %}
+			    <a href="http://www.djangoproject.com">Django</a>
+			    <span class="separator">|</span>
+			    {% trans "Theme by" %} <a target="_blank" href="http://getbootstrap.com">Bootstrap</a>
+			</p>
+			
+		</div>
+	</footer>
+
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,1366 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-12 13:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\colectivo\forms.py:77 .\colectivo\forms.py:639
+msgid "Company Data"
+msgstr ""
+
+#: .\colectivo\forms.py:88 .\colectivo\forms.py:240
+msgid "Workplace Data"
+msgstr ""
+
+#: .\colectivo\forms.py:110 .\colectivo\forms.py:209
+msgid "Personal Data"
+msgstr ""
+
+#: .\colectivo\forms.py:123 .\colectivo\forms.py:274 .\colectivo\forms.py:558
+msgid "Union Data"
+msgstr ""
+
+#: .\colectivo\forms.py:131 .\colectivo\forms.py:263
+msgid "Contact Data"
+msgstr ""
+
+#: .\colectivo\forms.py:139 .\colectivo\forms.py:289
+msgid "Administrative Data"
+msgstr ""
+
+#: .\colectivo\forms.py:143 .\colectivo\forms.py:301 .\colectivo\models.py:354
+#: .\colectivo\models.py:506
+msgid "Notes"
+msgstr ""
+
+#: .\colectivo\forms.py:155 .\colectivo\models.py:503
+msgid "ID Card"
+msgstr ""
+
+#: .\colectivo\forms.py:156 .\colectivo\models.py:509 .\colectivo\views.py:299
+msgid "Bank account"
+msgstr ""
+
+#: .\colectivo\forms.py:156 .\colectivo\models.py:509
+msgid "Bank account (IBAN)"
+msgstr ""
+
+#: .\colectivo\forms.py:157 .\colectivo\generic\models.py:85
+#: .\colectivo\generic\models.py:132 .\colectivo\models.py:497
+#: .\colectivo\views.py:294
+msgid "Landline phone"
+msgstr ""
+
+#: .\colectivo\forms.py:158 .\colectivo\generic\models.py:86
+#: .\colectivo\generic\models.py:133 .\colectivo\models.py:498
+#: .\colectivo\views.py:295
+msgid "Mobile phone"
+msgstr ""
+
+#: .\colectivo\forms.py:160 .\colectivo\forms.py:397 .\colectivo\forms.py:604
+#: .\colectivo\forms.py:690 .\colectivo\forms.py:793
+#: .\colectivo\generic\models.py:68 .\colectivo\generic\models.py:111
+#: .\colectivo\models.py:163 .\colectivo\models.py:310
+#: .\colectivo\models.py:360 .\colectivo\models.py:493 .\geolite\models.py:59
+#: .\geolite\models.py:83 .\geolite\views.py:64 .\geolite\views.py:114
+#: .\geolite\views.py:126
+msgid "Postal Code"
+msgstr ""
+
+#: .\colectivo\forms.py:161 .\colectivo\models.py:519 .\colectivo\views.py:273
+msgid "Wp. Postal Code"
+msgstr ""
+
+#: .\colectivo\forms.py:161 .\colectivo\models.py:519
+msgid "Workplace Postal Code"
+msgstr ""
+
+#: .\colectivo\forms.py:353
+msgid "Federation Data"
+msgstr ""
+
+#: .\colectivo\forms.py:366
+msgid "Federation address"
+msgstr ""
+
+#: .\colectivo\forms.py:383 .\colectivo\forms.py:588 .\colectivo\forms.py:773
+msgid "Contact"
+msgstr ""
+
+#: .\colectivo\forms.py:393 .\colectivo\forms.py:600 .\colectivo\forms.py:686
+#: .\colectivo\forms.py:789 .\colectivo\models.py:169
+#: .\colectivo\models.py:316 .\colectivo\models.py:366
+msgid "Contact landline phone"
+msgstr ""
+
+#: .\colectivo\forms.py:394 .\colectivo\forms.py:601 .\colectivo\forms.py:687
+#: .\colectivo\forms.py:790 .\colectivo\models.py:170
+#: .\colectivo\models.py:317 .\colectivo\models.py:367
+msgid "Contact mobile phone"
+msgstr ""
+
+#: .\colectivo\forms.py:395 .\colectivo\forms.py:602 .\colectivo\forms.py:688
+#: .\colectivo\forms.py:791 .\colectivo\models.py:171
+#: .\colectivo\models.py:318 .\colectivo\models.py:368
+#: .\colectivo\views.py:384 .\colectivo\views.py:540 .\colectivo\views.py:570
+msgid "Contact Fax"
+msgstr ""
+
+#: .\colectivo\forms.py:571
+msgid "Union Address"
+msgstr ""
+
+#: .\colectivo\forms.py:655
+msgid "Company Address"
+msgstr ""
+
+#: .\colectivo\forms.py:672
+msgid "Contact data"
+msgstr ""
+
+#: .\colectivo\forms.py:683 .\colectivo\models.py:352 .\colectivo\views.py:562
+msgid "CIF"
+msgstr ""
+
+#: .\colectivo\forms.py:734
+msgid "Entity Data"
+msgstr ""
+
+#: .\colectivo\forms.py:756
+msgid "Entity Address"
+msgstr ""
+
+#: .\colectivo\forms.py:784 .\colectivo\models.py:76
+#: .\colectivo\templates\colectivo\sepa_view.html:91 .\colectivo\views.py:591
+msgid "NIF"
+msgstr ""
+
+#: .\colectivo\forms.py:785 .\colectivo\models.py:79
+#: .\colectivo\templates\colectivo\sepa_view.html:100
+msgid "IBAN"
+msgstr ""
+
+#: .\colectivo\forms.py:786 .\colectivo\models.py:80
+#: .\colectivo\templates\colectivo\sepa_view.html:106
+msgid "BIC"
+msgstr ""
+
+#: .\colectivo\generic\models.py:43 .\colectivo\models.py:69
+#: .\colectivo\models.py:157 .\colectivo\models.py:193
+#: .\colectivo\models.py:217 .\colectivo\models.py:245
+#: .\colectivo\models.py:295 .\colectivo\models.py:351
+#: .\colectivo\models.py:488
+#: .\colectivo\templates\colectivo\affiliate_list.html:45
+#: .\colectivo\templates\colectivo\sepa_view.html:66
+#: .\colectivo\templates\colectivo\sepa_view.html:85 .\colectivo\views.py:277
+#: .\colectivo\views.py:376 .\colectivo\views.py:427 .\colectivo\views.py:488
+#: .\colectivo\views.py:509 .\colectivo\views.py:528 .\colectivo\views.py:561
+#: .\colectivo\views.py:590 .\geolite\models.py:18 .\geolite\models.py:38
+#: .\geolite\views.py:87 .\geolite\views.py:106
+msgid "Name"
+msgstr ""
+
+#: .\colectivo\generic\models.py:54 .\colectivo\generic\models.py:66
+#: .\colectivo\models.py:161 .\colectivo\models.py:308
+#: .\colectivo\models.py:358 .\colectivo\models.py:491
+#: .\colectivo\views.py:281 .\colectivo\views.py:378 .\colectivo\views.py:534
+#: .\colectivo\views.py:563
+msgid "Address"
+msgstr ""
+
+#: .\colectivo\generic\models.py:67 .\colectivo\generic\models.py:110
+#: .\colectivo\models.py:162 .\colectivo\models.py:309
+#: .\colectivo\models.py:359 .\colectivo\models.py:492
+#: .\colectivo\views.py:283 .\colectivo\views.py:380 .\colectivo\views.py:536
+#: .\colectivo\views.py:565 .\colectivo\views.py:592 .\geolite\models.py:42
+#: .\geolite\models.py:82 .\geolite\models.py:86 .\geolite\views.py:63
+#: .\geolite\views.py:94 .\geolite\views.py:127
+msgid "Locality"
+msgstr ""
+
+#: .\colectivo\generic\models.py:70 .\colectivo\generic\models.py:113
+#: .\colectivo\models.py:164 .\colectivo\models.py:311
+#: .\colectivo\models.py:361 .\colectivo\models.py:494
+#: .\colectivo\templates\colectivo\affiliate_list.html:49
+#: .\colectivo\views.py:284 .\colectivo\views.py:381 .\colectivo\views.py:537
+#: .\colectivo\views.py:566 .\colectivo\views.py:593 .\geolite\models.py:21
+#: .\geolite\models.py:81 .\geolite\views.py:62 .\geolite\views.py:107
+msgid "Province"
+msgstr ""
+
+#: .\colectivo\generic\models.py:98 .\colectivo\generic\models.py:134
+msgid "Fax"
+msgstr ""
+
+#: .\colectivo\generic\models.py:115 .\colectivo\generic\models.py:131
+#: .\colectivo\models.py:500 .\colectivo\views.py:296
+msgid "Email"
+msgstr ""
+
+#: .\colectivo\generic\models.py:136 .\colectivo\models.py:173
+#: .\colectivo\models.py:320 .\colectivo\models.py:370
+msgid "Contact Person"
+msgstr ""
+
+#: .\colectivo\models.py:44
+msgid "Bank"
+msgstr ""
+
+#: .\colectivo\models.py:45 .\colectivo\models.py:329
+#: .\colectivo\models.py:477 .\colectivo\models.py:632
+#: .\colectivo\views.py:288
+msgid "Union"
+msgstr ""
+
+#: .\colectivo\models.py:46
+msgid "Payslip"
+msgstr ""
+
+#: .\colectivo\models.py:69
+msgid "Entity name"
+msgstr ""
+
+#: .\colectivo\models.py:81
+msgid "Creditor Identifier"
+msgstr ""
+
+#: .\colectivo\models.py:92
+msgid "Entitiy"
+msgstr ""
+
+#: .\colectivo\models.py:93 .\colectivo\urls.py:65 .\colectivo\urls.py:66
+#: .\colectivo\urls.py:73 .\colectivo\urls.py:74 .\colectivo\urls.py:82
+#: .\colectivo\urls.py:83 .\colectivo\urls.py:91 .\colectivo\urls.py:93
+#: .\colectivo\views.py:579 .\display\templates\display\base.html:86
+msgid "Entities"
+msgstr ""
+
+#: .\colectivo\models.py:105
+msgid "Generation date"
+msgstr ""
+
+#: .\colectivo\models.py:107
+msgid "Generation timestamp"
+msgstr ""
+
+#: .\colectivo\models.py:107
+msgid "Generation Timestamp"
+msgstr ""
+
+#: .\colectivo\models.py:108
+msgid "User"
+msgstr ""
+
+#: .\colectivo\models.py:109
+#: .\colectivo\templates\colectivo\sepa_view.html:130 .\colectivo\views.py:341
+msgid "Purpose"
+msgstr ""
+
+#: .\colectivo\models.py:109
+msgid "Purpose of the generation"
+msgstr ""
+
+#: .\colectivo\models.py:110
+#: .\colectivo\templates\colectivo\sepa_view.html:139
+#: .\colectivo\templates\colectivo\sepa_view.html:142
+msgid "File preffix"
+msgstr ""
+
+#: .\colectivo\models.py:111
+msgid "Generation Id"
+msgstr ""
+
+#: .\colectivo\models.py:111
+msgid "Id given to this receipts generation"
+msgstr ""
+
+#: .\colectivo\models.py:112 .\colectivo\views.py:339
+msgid "Entity"
+msgstr ""
+
+#: .\colectivo\models.py:112
+msgid "Entity for the current generation"
+msgstr ""
+
+#: .\colectivo\models.py:114 .\colectivo\models.py:567
+msgid "Contents"
+msgstr ""
+
+#: .\colectivo\models.py:114
+msgid "File contents"
+msgstr ""
+
+#: .\colectivo\models.py:115
+msgid "File name"
+msgstr ""
+
+#: .\colectivo\models.py:127
+msgid "Receipt generation"
+msgstr ""
+
+#: .\colectivo\models.py:128
+msgid "Receipt generations"
+msgstr ""
+
+#: .\colectivo\models.py:151
+msgid "Local"
+msgstr ""
+
+#: .\colectivo\models.py:152
+msgid "Regional"
+msgstr ""
+
+#: .\colectivo\models.py:153
+msgid "Interregional"
+msgstr ""
+
+#: .\colectivo\models.py:157
+msgid "Federation name"
+msgstr ""
+
+#: .\colectivo\models.py:158 .\colectivo\views.py:377
+msgid "Scope"
+msgstr ""
+
+#: .\colectivo\models.py:158
+msgid "Federation scope"
+msgstr ""
+
+#: .\colectivo\models.py:172 .\colectivo\models.py:319
+#: .\colectivo\models.py:369 .\colectivo\views.py:385 .\colectivo\views.py:541
+#: .\colectivo\views.py:571
+msgid "Contact Email"
+msgstr ""
+
+#: .\colectivo\models.py:180 .\colectivo\models.py:297
+#: .\colectivo\models.py:476 .\colectivo\models.py:629
+#: .\colectivo\views.py:287 .\colectivo\views.py:529
+msgid "Federation"
+msgstr ""
+
+#: .\colectivo\models.py:181 .\colectivo\urls.py:206 .\colectivo\urls.py:207
+#: .\colectivo\urls.py:214 .\colectivo\urls.py:215 .\colectivo\urls.py:221
+#: .\colectivo\urls.py:223 .\colectivo\views.py:364
+#: .\display\templates\display\base.html:117
+msgid "Federations"
+msgstr ""
+
+#: .\colectivo\models.py:193
+msgid "Sector name"
+msgstr ""
+
+#: .\colectivo\models.py:203 .\colectivo\models.py:218
+#: .\colectivo\models.py:481 .\colectivo\views.py:290 .\colectivo\views.py:489
+msgid "Sector"
+msgstr ""
+
+#: .\colectivo\models.py:204 .\colectivo\models.py:303 .\colectivo\urls.py:243
+#: .\colectivo\urls.py:244 .\colectivo\urls.py:251 .\colectivo\urls.py:252
+#: .\colectivo\urls.py:258 .\colectivo\urls.py:260 .\colectivo\urls.py:387
+#: .\colectivo\urls.py:388 .\colectivo\urls.py:395 .\colectivo\urls.py:396
+#: .\colectivo\urls.py:402 .\colectivo\urls.py:404 .\colectivo\views.py:415
+#: .\colectivo\views.py:531 .\display\templates\display\base.html:121
+msgid "Sectors"
+msgstr ""
+
+#: .\colectivo\models.py:217
+msgid "Subsector name"
+msgstr ""
+
+#: .\colectivo\models.py:228 .\colectivo\models.py:483
+#: .\colectivo\views.py:291
+msgid "Subsector"
+msgstr ""
+
+#: .\colectivo\models.py:229
+msgid "Subsectors"
+msgstr ""
+
+#: .\colectivo\models.py:245
+msgid "Due name"
+msgstr ""
+
+#: .\colectivo\models.py:246 .\colectivo\views.py:510
+msgid "Amount"
+msgstr ""
+
+#: .\colectivo\models.py:257 .\colectivo\models.py:525
+#: .\colectivo\views.py:297
+msgid "Due"
+msgstr ""
+
+#: .\colectivo\models.py:258 .\colectivo\models.py:301 .\colectivo\urls.py:421
+#: .\colectivo\urls.py:422 .\colectivo\urls.py:429 .\colectivo\urls.py:430
+#: .\colectivo\urls.py:436 .\colectivo\urls.py:438 .\colectivo\views.py:498
+#: .\colectivo\views.py:532 .\display\templates\display\base.html:80
+msgid "Dues"
+msgstr ""
+
+#: .\colectivo\models.py:269 .\colectivo\models.py:280
+#: .\colectivo\views.py:406
+msgid "Subscription"
+msgstr ""
+
+#: .\colectivo\models.py:269
+msgid "Name of subscription"
+msgstr ""
+
+#: .\colectivo\models.py:281 .\colectivo\models.py:532 .\colectivo\urls.py:280
+#: .\colectivo\urls.py:281 .\colectivo\urls.py:288 .\colectivo\urls.py:289
+#: .\colectivo\urls.py:295 .\colectivo\urls.py:297 .\colectivo\views.py:394
+#: .\display\templates\display\base.html:100
+msgid "Subscriptions"
+msgstr ""
+
+#: .\colectivo\models.py:293 .\colectivo\models.py:595
+#: .\colectivo\views.py:467 .\colectivo\views.py:527
+msgid "Code"
+msgstr ""
+
+#: .\colectivo\models.py:293
+msgid "Union Code"
+msgstr ""
+
+#: .\colectivo\models.py:295
+msgid "Union name"
+msgstr ""
+
+#: .\colectivo\models.py:297
+msgid "Federation of the union"
+msgstr ""
+
+#: .\colectivo\models.py:330 .\colectivo\urls.py:455 .\colectivo\urls.py:456
+#: .\colectivo\urls.py:463 .\colectivo\urls.py:464 .\colectivo\urls.py:470
+#: .\colectivo\urls.py:472 .\colectivo\views.py:517
+#: .\display\templates\display\base.html:113
+msgid "Unions"
+msgstr ""
+
+#: .\colectivo\models.py:351
+msgid "Company name"
+msgstr ""
+
+#: .\colectivo\models.py:372
+msgid "Representation"
+msgstr ""
+
+#: .\colectivo\models.py:372
+msgid "Company has representation"
+msgstr ""
+
+#: .\colectivo\models.py:386 .\colectivo\models.py:514
+#: .\colectivo\views.py:272
+msgid "Company"
+msgstr ""
+
+#: .\colectivo\models.py:387 .\colectivo\urls.py:491 .\colectivo\urls.py:492
+#: .\colectivo\urls.py:499 .\colectivo\urls.py:500 .\colectivo\urls.py:506
+#: .\colectivo\urls.py:508 .\colectivo\views.py:550
+#: .\display\templates\display\base.html:62
+msgid "Companies"
+msgstr ""
+
+#: .\colectivo\models.py:449
+msgid "Female"
+msgstr ""
+
+#: .\colectivo\models.py:450
+msgid "Male"
+msgstr ""
+
+#: .\colectivo\models.py:461
+msgid "Active"
+msgstr ""
+
+#: .\colectivo\models.py:462
+msgid "Unemployed"
+msgstr ""
+
+#: .\colectivo\models.py:463
+msgid "Retired"
+msgstr ""
+
+#: .\colectivo\models.py:464
+msgid "Insecure"
+msgstr ""
+
+#: .\colectivo\models.py:470
+msgid "Affiliate ID"
+msgstr ""
+
+#: .\colectivo\models.py:470
+msgid "Affiliate custom ID"
+msgstr ""
+
+#: .\colectivo\models.py:486 .\colectivo\views.py:293
+msgid "Affiliation date"
+msgstr ""
+
+#: .\colectivo\models.py:488
+msgid "Affiliate name"
+msgstr ""
+
+#: .\colectivo\models.py:489 .\colectivo\views.py:278
+msgid "Surnames"
+msgstr ""
+
+#: .\colectivo\models.py:489
+msgid "Affiliate surnames"
+msgstr ""
+
+#: .\colectivo\models.py:502 .\colectivo\views.py:280
+msgid "Born date"
+msgstr ""
+
+#: .\colectivo\models.py:504 .\colectivo\views.py:279
+msgid "Sex"
+msgstr ""
+
+#: .\colectivo\models.py:508 .\colectivo\views.py:298
+msgid "Payment option"
+msgstr ""
+
+#: .\colectivo\models.py:511 .\colectivo\views.py:271
+msgid "Working status"
+msgstr ""
+
+#: .\colectivo\models.py:514
+msgid "Company (if user active)"
+msgstr ""
+
+#: .\colectivo\models.py:518 .\colectivo\views.py:274
+msgid "Wp. Locality"
+msgstr ""
+
+#: .\colectivo\models.py:518
+msgid "Workplace Locality"
+msgstr ""
+
+#: .\colectivo\models.py:521 .\colectivo\views.py:275
+msgid "Wp. Province"
+msgstr ""
+
+#: .\colectivo\models.py:521
+msgid "Workplace Province"
+msgstr ""
+
+#: .\colectivo\models.py:523 .\colectivo\views.py:276
+msgid "Wp. Email"
+msgstr ""
+
+#: .\colectivo\models.py:523
+msgid "Professional Email"
+msgstr ""
+
+#: .\colectivo\models.py:528
+msgid "Registered"
+msgstr ""
+
+#: .\colectivo\models.py:528
+msgid "Affiliate is registered"
+msgstr ""
+
+#: .\colectivo\models.py:529
+msgid "Leaving date"
+msgstr ""
+
+#: .\colectivo\models.py:547
+msgid "Affiliate"
+msgstr ""
+
+#: .\colectivo\models.py:548
+#: .\colectivo\templates\colectivo\affiliate_list.html:13
+#: .\colectivo\templates\colectivo\affiliate_list.html:17
+#: .\colectivo\templates\colectivo\affiliate_list.html:40
+#: .\colectivo\urls.py:122 .\colectivo\urls.py:123 .\colectivo\urls.py:130
+#: .\colectivo\urls.py:131 .\colectivo\urls.py:137 .\colectivo\urls.py:139
+#: .\colectivo\views.py:261 .\display\templates\display\base.html:54
+#: .\display\templates\display\base.html:58
+msgid "Affiliates"
+msgstr ""
+
+#: .\colectivo\models.py:564 .\colectivo\views.py:340 .\colectivo\views.py:447
+msgid "Date"
+msgstr ""
+
+#: .\colectivo\models.py:566 .\colectivo\views.py:446
+msgid "Title"
+msgstr ""
+
+#: .\colectivo\models.py:578 .\colectivo\views.py:266 .\colectivo\views.py:371
+#: .\colectivo\views.py:401 .\colectivo\views.py:422 .\colectivo\views.py:441
+#: .\colectivo\views.py:462 .\colectivo\views.py:484 .\colectivo\views.py:505
+#: .\colectivo\views.py:523 .\colectivo\views.py:557 .\colectivo\views.py:586
+#: .\geolite\views.py:56 .\geolite\views.py:81 .\geolite\views.py:101
+#: .\geolite\views.py:121
+msgid "New"
+msgstr ""
+
+#: .\colectivo\models.py:579 .\colectivo\urls.py:348 .\colectivo\urls.py:349
+#: .\colectivo\urls.py:356 .\colectivo\urls.py:357 .\colectivo\urls.py:363
+#: .\colectivo\urls.py:365 .\colectivo\views.py:434
+#: .\display\templates\display\base.html:95
+#: .\display\templates\display\index.html:21
+msgid "News"
+msgstr ""
+
+#: .\colectivo\models.py:595 .\colectivo\models.py:607
+msgid "SEPA return code"
+msgstr ""
+
+#: .\colectivo\models.py:596 .\colectivo\views.py:468
+msgid "Description"
+msgstr ""
+
+#: .\colectivo\models.py:596
+msgid "SEPA return description"
+msgstr ""
+
+#: .\colectivo\models.py:608 .\colectivo\urls.py:315 .\colectivo\urls.py:316
+#: .\colectivo\urls.py:323 .\colectivo\urls.py:324 .\colectivo\urls.py:330
+#: .\colectivo\urls.py:332 .\colectivo\views.py:455
+#: .\display\templates\display\base.html:75
+msgid "SEPA return codes"
+msgstr ""
+
+#: .\colectivo\models.py:629
+msgid "Federation for the user"
+msgstr ""
+
+#: .\colectivo\models.py:634
+msgid "Entiti"
+msgstr ""
+
+#: .\colectivo\models.py:634
+msgid "Entity for the user"
+msgstr ""
+
+#: .\colectivo\models.py:704
+#, python-format
+msgid "Created: %s"
+msgstr ""
+
+#: .\colectivo\models.py:706
+#, python-format
+msgid "Modified: %s"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\affiliate_list.html:16
+#: .\colectivo\templates\colectivo\sepa_view.html:12
+#: .\display\templates\403.html:11
+#: .\display\templates\display\generic_view_confirm_delete.html:17
+#: .\display\templates\display\generic_view_form.html:19
+#: .\display\templates\display\generic_view_list.html:12
+#: .\display\templates\display\generic_view_list_btable.html:12
+#: .\display\templates\display\index.html:11
+#: .\koi\templates\account\account_inactive.html:8
+#: .\koi\templates\account\password_change.html:12
+msgid "Home"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\affiliate_list.html:46
+msgid "Surname"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\affiliate_list.html:47
+msgid "Born Date"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\affiliate_list.html:48
+msgid "Gender"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\report_test.html:158
+#: .\display\templates\display\base.html:218
+msgid "Designed and built by"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\report_test.html:162
+#: .\display\templates\display\base.html:222
+msgid "Powered by"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\report_test.html:165
+#: .\display\templates\display\base.html:225
+msgid "Theme by"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:24
+#: .\colectivo\templates\colectivo\sepa_view.html:39
+msgid "Close"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:25
+msgid "SEPA receipts file generation"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:29
+msgid "SEPA receipts file is being generated."
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:30
+msgid "Please wait..."
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:33
+msgid "SEPA receipts file has been generated (only 10 registers)"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:34
+msgid "Download file"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:52
+#: .\colectivo\templates\colectivo\sepa_view.html:163
+msgid "Generate file"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:112
+msgid "Creditor Id"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:123
+msgid "Information for receipts"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:133
+msgid "Purpose for the generation"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:148
+msgid "Generation Identifier"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:151
+msgid "Generation Id for this receipts generation"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:277
+msgid "Please select the entity you want to work with: "
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:282
+msgid "SEPA receipts generation for: "
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:287
+msgid "MONTHLY RECEIPT"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:288
+msgid "sepa_receipts"
+msgstr ""
+
+#: .\colectivo\templates\colectivo\sepa_view.html:289
+msgid "REC"
+msgstr ""
+
+#: .\colectivo\urls.py:42
+msgid "SEPA file creation"
+msgstr ""
+
+#: .\colectivo\views.py:270 .\colectivo\views.py:338 .\colectivo\views.py:375
+#: .\colectivo\views.py:405 .\colectivo\views.py:426 .\colectivo\views.py:445
+#: .\colectivo\views.py:466 .\colectivo\views.py:487 .\colectivo\views.py:508
+#: .\colectivo\views.py:526 .\colectivo\views.py:560 .\colectivo\views.py:589
+#: .\geolite\views.py:61 .\geolite\views.py:86 .\geolite\views.py:105
+#: .\geolite\views.py:125
+msgid "ID"
+msgstr ""
+
+#: .\colectivo\views.py:282 .\colectivo\views.py:379 .\colectivo\views.py:535
+#: .\colectivo\views.py:564 .\geolite\models.py:64
+msgid "Postal code"
+msgstr ""
+
+#: .\colectivo\views.py:285
+msgid "DNI"
+msgstr ""
+
+#: .\colectivo\views.py:331 .\display\templates\display\base.html:72
+msgid "SEPA files"
+msgstr ""
+
+#: .\colectivo\views.py:335
+msgid "Generate SEPA"
+msgstr ""
+
+#: .\colectivo\views.py:342
+msgid "Receipts File"
+msgstr ""
+
+#: .\colectivo\views.py:382 .\colectivo\views.py:538 .\colectivo\views.py:568
+msgid "Contact Landline phone"
+msgstr ""
+
+#: .\colectivo\views.py:383 .\colectivo\views.py:539 .\colectivo\views.py:569
+msgid "Contact Mobile phone"
+msgstr ""
+
+#: .\colectivo\views.py:386 .\colectivo\views.py:542 .\colectivo\views.py:572
+msgid "Contact person"
+msgstr ""
+
+#: .\colectivo\views.py:477 .\display\templates\display\base.html:125
+msgid "SubSectors"
+msgstr ""
+
+#: .\display\layouts.py:131
+msgid "Save"
+msgstr ""
+
+#: .\display\templates\403.html:6 .\display\templates\403.html.py:8
+#: .\display\templates\403.html:12
+msgid "Access forbidden"
+msgstr ""
+
+#: .\display\templates\403.html:19
+msgid "Forbidden access"
+msgstr ""
+
+#: .\display\templates\403.html:20
+msgid "You don't have permission for accessing this page."
+msgstr ""
+
+#: .\display\templates\403.html:21
+msgid "Please, contact the administrator."
+msgstr ""
+
+#: .\display\templates\display\base.html:42
+msgid "Toggle navigation"
+msgstr ""
+
+#: .\display\templates\display\base.html:68
+msgid "Administration"
+msgstr ""
+
+#: .\display\templates\display\base.html:73
+msgid "SEPA files creation"
+msgstr ""
+
+#: .\display\templates\display\base.html:91
+msgid "Receipt report TEST"
+msgstr ""
+
+#: .\display\templates\display\base.html:110
+msgid "Confederation"
+msgstr ""
+
+#: .\display\templates\display\base.html:133
+msgid "Geonames"
+msgstr ""
+
+#: .\display\templates\display\base.html:136 .\geolite\models.py:43
+#: .\geolite\models.py:87 .\geolite\urls.py:58 .\geolite\urls.py:59
+#: .\geolite\urls.py:66 .\geolite\urls.py:67 .\geolite\urls.py:73
+#: .\geolite\urls.py:75 .\geolite\urls.py:122 .\geolite\urls.py:123
+#: .\geolite\urls.py:130 .\geolite\urls.py:131 .\geolite\urls.py:137
+#: .\geolite\urls.py:139 .\geolite\views.py:49
+msgid "Localities"
+msgstr ""
+
+#: .\display\templates\display\base.html:160
+msgid "Django Admin"
+msgstr ""
+
+#: .\display\templates\display\base.html:164
+#: .\koi\templates\account\password_change.html:9
+#: .\koi\templates\account\password_change.html:13
+#: .\koi\templates\account\password_change.html:25
+#: .\koi\templates\account\password_reset_from_key.html:5
+#: .\koi\templates\account\password_reset_from_key.html:8
+#: .\koi\templates\account\password_reset_from_key_done.html:5
+#: .\koi\templates\account\password_reset_from_key_done.html:8
+msgid "Change Password"
+msgstr ""
+
+#: .\display\templates\display\base.html:166
+msgid "Logout"
+msgstr ""
+
+#: .\display\templates\display\generic_view_confirm_delete.html:13
+msgid "Delete"
+msgstr ""
+
+#: .\display\templates\display\generic_view_confirm_delete.html:25
+msgid "DELETE"
+msgstr ""
+
+#: .\display\templates\display\generic_view_confirm_delete.html:38
+#, python-format
+msgid "Are you sure you want to delete %(obj_name)s?"
+msgstr ""
+
+#: .\display\templates\display\generic_view_confirm_delete.html:45
+msgid "Yes, delete"
+msgstr ""
+
+#: .\display\templates\display\generic_view_confirm_delete.html:46
+msgid "No, cancel"
+msgstr ""
+
+#: .\display\templates\display\generic_view_form.html:14
+msgid "Edit"
+msgstr ""
+
+#: .\display\templates\display\generic_view_form.html:14
+msgid "Add"
+msgstr ""
+
+#: .\display\templates\display\generic_view_form.html:25
+msgid "NEW"
+msgstr ""
+
+#: .\display\templates\display\index.html:6
+#: .\display\templates\display\index.html:8
+msgid "Index"
+msgstr ""
+
+#: .\geolite\models.py:22 .\geolite\urls.py:92 .\geolite\urls.py:93
+#: .\geolite\urls.py:100 .\geolite\urls.py:101 .\geolite\urls.py:107
+#: .\geolite\urls.py:109 .\geolite\views.py:74
+msgid "Provinces"
+msgstr ""
+
+#: .\geolite\models.py:65 .\geolite\urls.py:153 .\geolite\urls.py:154
+#: .\geolite\urls.py:161 .\geolite\urls.py:162 .\geolite\urls.py:168
+#: .\geolite\urls.py:170
+msgid "Postal codes"
+msgstr ""
+
+#: .\koi\settings.py:197
+msgid "English"
+msgstr ""
+
+#: .\koi\settings.py:198 .\koi\templates\change_language.html:18
+#: .\koi\templates\change_language.html:21
+msgid "Castilian"
+msgstr ""
+
+#: .\koi\settings.py:199
+msgid "Catalan"
+msgstr ""
+
+#: .\koi\templates\account\account_inactive.html:5
+#: .\koi\templates\account\account_inactive.html:9
+msgid "Account Inactive"
+msgstr ""
+
+#: .\koi\templates\account\account_inactive.html:16
+msgid "This account is inactive."
+msgstr ""
+
+#: .\koi\templates\account\email.html:6
+msgid "Account"
+msgstr ""
+
+#: .\koi\templates\account\email.html:9
+msgid "E-mail Addresses"
+msgstr ""
+
+#: .\koi\templates\account\email.html:11
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: .\koi\templates\account\email.html:25
+msgid "Verified"
+msgstr ""
+
+#: .\koi\templates\account\email.html:27
+msgid "Unverified"
+msgstr ""
+
+#: .\koi\templates\account\email.html:29
+msgid "Primary"
+msgstr ""
+
+#: .\koi\templates\account\email.html:35
+msgid "Make Primary"
+msgstr ""
+
+#: .\koi\templates\account\email.html:36
+msgid "Re-send Verification"
+msgstr ""
+
+#: .\koi\templates\account\email.html:37
+#: .\koi\templates\socialaccount\connections.html:36
+msgid "Remove"
+msgstr ""
+
+#: .\koi\templates\account\email.html:44
+msgid "Warning:"
+msgstr ""
+
+#: .\koi\templates\account\email.html:44
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: .\koi\templates\account\email.html:49
+msgid "Add E-mail Address"
+msgstr ""
+
+#: .\koi\templates\account\email.html:54
+msgid "Add E-mail"
+msgstr ""
+
+#: .\koi\templates\account\email.html:63
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: .\koi\templates\account\email\email_confirmation_message.txt:1
+#, python-format
+msgid ""
+"User %(user_display)s at %(site_name)s has given this as an email address.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+msgstr ""
+
+#: .\koi\templates\account\email\email_confirmation_subject.txt:3
+#: .\koi\templates\account\email_confirm.html:7
+#: .\koi\templates\account\email_confirm.html:11
+#: .\koi\templates\account\email_confirmed.html:6
+#: .\koi\templates\account\email_confirmed.html:11
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: .\koi\templates\account\email\password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account at %(site_domain)s.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+
+#: .\koi\templates\account\email\password_reset_key_message.txt:6
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr ""
+
+#: .\koi\templates\account\email\password_reset_key_message.txt:8
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: .\koi\templates\account\email\password_reset_key_subject.txt:3
+msgid "Password Reset E-mail"
+msgstr ""
+
+#: .\koi\templates\account\email_confirm.html:17
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: .\koi\templates\account\email_confirm.html:21
+msgid "Confirm"
+msgstr ""
+
+#: .\koi\templates\account\email_confirm.html:28
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href=\"%"
+"(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: .\koi\templates\account\email_confirmed.html:15
+#, python-format
+msgid ""
+"You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-"
+"mail address for user %(user_display)s."
+msgstr ""
+
+#: .\koi\templates\account\login.html:12
+msgid "Sign in"
+msgstr ""
+
+#: .\koi\templates\account\login.html:20
+msgid "Please sign in"
+msgstr ""
+
+#: .\koi\templates\account\login.html:24
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: .\koi\templates\account\login.html:34
+msgid "or"
+msgstr ""
+
+#: .\koi\templates\account\login.html:46
+#, python-format
+msgid ""
+"If you have not created an account yet, then please \n"
+"\t\t<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: .\koi\templates\account\login.html:61
+msgid "Sign In"
+msgstr ""
+
+#: .\koi\templates\account\login.html:64
+msgid "Forgot Password?"
+msgstr ""
+
+#: .\koi\templates\account\logout.html:6 .\koi\templates\account\logout.html:9
+#: .\koi\templates\account\logout.html:18
+msgid "Sign Out"
+msgstr ""
+
+#: .\koi\templates\account\logout.html:11
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: .\koi\templates\account\messages\cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr ""
+
+#: .\koi\templates\account\messages\email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr ""
+
+#: .\koi\templates\account\messages\email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr ""
+
+#: .\koi\templates\account\messages\email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr ""
+
+#: .\koi\templates\account\messages\logged_in.txt:4
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr ""
+
+#: .\koi\templates\account\messages\logged_out.txt:2
+msgid "You have signed out."
+msgstr ""
+
+#: .\koi\templates\account\messages\password_changed.txt:2
+msgid "Password successfully changed."
+msgstr ""
+
+#: .\koi\templates\account\messages\password_set.txt:2
+msgid "Password successfully set."
+msgstr ""
+
+#: .\koi\templates\account\messages\primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr ""
+
+#: .\koi\templates\account\messages\unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr ""
+
+#: .\koi\templates\account\password_reset.html:8
+#: .\koi\templates\account\password_reset.html:12
+#: .\koi\templates\account\password_reset_done.html:6
+#: .\koi\templates\account\password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: .\koi\templates\account\password_reset.html:17
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: .\koi\templates\account\password_reset.html:24
+msgid "Reset My Password"
+msgstr ""
+
+#: .\koi\templates\account\password_reset.html:27
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: .\koi\templates\account\password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: .\koi\templates\account\password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: .\koi\templates\account\password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: .\koi\templates\account\password_reset_from_key.html:18
+msgid "change password"
+msgstr ""
+
+#: .\koi\templates\account\password_reset_from_key.html:21
+#: .\koi\templates\account\password_reset_from_key_done.html:9
+msgid "Your password is now changed."
+msgstr ""
+
+#: .\koi\templates\account\password_set.html:6
+#: .\koi\templates\account\password_set.html:9
+#: .\koi\templates\account\password_set.html:14
+msgid "Set Password"
+msgstr ""
+
+#: .\koi\templates\account\signup.html:7
+#: .\koi\templates\socialaccount\signup.html:6
+msgid "Signup"
+msgstr ""
+
+#: .\koi\templates\account\signup.html:10
+#: .\koi\templates\account\signup.html:22
+#: .\koi\templates\socialaccount\signup.html:9
+#: .\koi\templates\socialaccount\signup.html:20
+msgid "Sign Up"
+msgstr ""
+
+#: .\koi\templates\account\signup.html:12
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: .\koi\templates\account\signup_closed.html:8
+#: .\koi\templates\account\signup_closed.html:11
+msgid "Sign Up Closed"
+msgstr ""
+
+#: .\koi\templates\account\signup_closed.html:13
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: .\koi\templates\account\snippets\already_logged_in.html:5
+msgid "Note"
+msgstr ""
+
+#: .\koi\templates\account\snippets\already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr ""
+
+#: .\koi\templates\account\verification_sent.html:5
+#: .\koi\templates\account\verification_sent.html:8
+#: .\koi\templates\account\verified_email_required.html:6
+#: .\koi\templates\account\verified_email_required.html:9
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: .\koi\templates\account\verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: .\koi\templates\account\verified_email_required.html:13
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: .\koi\templates\account\verified_email_required.html:17
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: .\koi\templates\account\verified_email_required.html:21
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: .\koi\templates\openid\login.html:10
+msgid "OpenID Sign In"
+msgstr ""
+
+#: .\koi\templates\socialaccount\authentication_error.html:5
+#: .\koi\templates\socialaccount\authentication_error.html:8
+msgid "Social Network Login Failure"
+msgstr ""
+
+#: .\koi\templates\socialaccount\authentication_error.html:10
+msgid ""
+"An error occurred while attempting to login via your social network account."
+msgstr ""
+
+#: .\koi\templates\socialaccount\connections.html:6
+#: .\koi\templates\socialaccount\connections.html:9
+msgid "Account Connections"
+msgstr ""
+
+#: .\koi\templates\socialaccount\connections.html:12
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr ""
+
+#: .\koi\templates\socialaccount\connections.html:44
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr ""
+
+#: .\koi\templates\socialaccount\connections.html:47
+msgid "Add a 3rd Party Account"
+msgstr ""
+
+#: .\koi\templates\socialaccount\login_cancelled.html:6
+#: .\koi\templates\socialaccount\login_cancelled.html:10
+msgid "Login Cancelled"
+msgstr ""
+
+#: .\koi\templates\socialaccount\login_cancelled.html:14
+#, python-format
+msgid ""
+"You decided to cancel logging in to our site using one of your existing "
+"accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
+"\">sign in</a>."
+msgstr ""
+
+#: .\koi\templates\socialaccount\messages\account_connected.txt:2
+msgid "The social account has been connected."
+msgstr ""
+
+#: .\koi\templates\socialaccount\messages\account_connected_other.txt:2
+msgid "The social account is already connected to a different account."
+msgstr ""
+
+#: .\koi\templates\socialaccount\messages\account_disconnected.txt:2
+msgid "The social account has been disconnected."
+msgstr ""
+
+#: .\koi\templates\socialaccount\signup.html:11
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to\n"
+"%(site_name)s. As a final step, please complete the following form:"
+msgstr ""

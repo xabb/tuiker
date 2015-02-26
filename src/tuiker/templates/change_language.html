@@ -1,0 +1,29 @@
+{% load i18n %}
+
+
+<!-- https://docs.djangoproject.com/en/dev/topics/i18n/translation/ -->
+
+{% get_language_info_list for LANGUAGES as languages %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_language_info for LANGUAGE_CODE as LANGUAGE %}
+
+	<form id="langform" action="{% url 'set_language' %}" method="post" style="display: inline;">
+	<!-- Important. send csrf token or will emit an error -->
+	{% csrf_token %}
+		<input id="language" type="hidden" name="language" value="{{ LANGUAGE_CODE }}" />
+	</form>
+
+
+        <li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><b class="glyphicon glyphicon-globe"></b>&nbsp;{% if LANGUAGE_CODE = "es"%}{% trans "Castilian" %}{% else %}{{ LANGUAGE.name_local|capfirst }}{% endif %}&nbsp;<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+		      	{% for lang in languages %}
+                <li><a href="javascript:set_language('{{ lang.code }}');">{% if lang.code = "es"%}{% trans "Castilian" %}{% else %}{{ lang.name_local|capfirst }}{% endif %}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+
+
+
+
+

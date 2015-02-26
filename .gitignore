@@ -1,0 +1,7 @@
+*.pyc
+.project
+.pydevproject
+org.eclipse.core.resources.prefs
+org.eclipse.ltk.core.refactoring.prefs
+local_settings.py
+*.log

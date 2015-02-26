@@ -1,0 +1,46 @@
+#! /bin/bash
+### BEGIN INIT INFO
+# Provides:          tuiker server
+# Required-Start:    $syslog
+# Required-Stop:     $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: tuiker tornado server
+# Description:
+#
+### END INIT INFO
+
+
+# /etc/init.d/tuiker
+
+# The following part always gets executed.
+echo "tuiker tornado server"
+
+export PYTHONPATH=/home/www/tuiker.ai-designstudio.net/src/
+export DJANGO_SETTINGS_MODULE=tuiker.settings
+
+id=$(pgrep -f tornado_main.py)
+
+# Carry on specific functions.
+case "$1" in
+  start)
+    if [ -z "$id" ]
+    then
+        echo "Starting koi..."
+        python /home/www/tuiker.ai-designstudio.net/src/tuiker/tornado_main.py &> /var/log/tuiker
+    else
+        echo "Service already running"
+    fi
+    ;;
+  stop)
+    echo "Stopping tuiker on PID [$id]"
+    kill -SIGINT $id
+    echo "finished!"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/tuiker {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0
