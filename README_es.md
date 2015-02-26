@@ -6,14 +6,14 @@ Instalar python, django y sus dependencias
 ===
 
 - Instalar python 2.7 para el sistema operativo con el que se trabaje.
-	Debian/ubuntu y compañía: sudo apt-get install python
-	Windows: https://www.python.org/downloads/
-	Mac: ni idea, de eso no uso.
+	* Debian/ubuntu y compañía: sudo apt-get install python
+	* Windows: https://www.python.org/downloads/
+	* Mac: ni idea, de eso no uso.
 	
 - Instalar gestor de paquetes PIP para python (como el gem de ruby, muy cómodo):
-	Debian/ubuntu y similares: sudo apt-get install python-pip (https://pip.pypa.io/en/latest/installing.html)
-	Windows: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows (lo siento, hay que leer)
-	Mac: tengo una profunda ignorancia sobre el tema pero si alguien me regala un Mac podré ponerle remedio :-P
+	* Debian/ubuntu y similares: sudo apt-get install python-pip (https://pip.pypa.io/en/latest/installing.html)
+	* Windows: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows (lo siento, hay que leer)
+	* Mac: tengo una profunda ignorancia sobre el tema pero si alguien me regala un Mac podré ponerle remedio :-P
 
 
 
