@@ -1,0 +1,34 @@
+{% extends 'frontend/base.html' %}
+
+{% load i18n %}
+{% load account %}
+
+
+{% block title %}{% trans "Twiter info" %}{% endblock %}
+
+{% block bootstrap3_title %}{% trans "Twitter info" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li><a href="{% url "index" %}">{% trans "Home" %}</a></li>
+<li class="active">{% trans "Last tweets on timeline" %}</li>
+{% endblock %}
+
+
+
+{% block content %}
+
+  <div class="panel-body">
+	<ul class="list-group">
+		{% for tweet in tweets %}
+		  <li class="list-group-item"><span class="badge">{{ tweet.user.screen_name }}</span>{{ tweet.user.name }}</li>
+			<div class="panel panel-default">
+			  <div class="panel-body">{% autoescape off %}{{ tweet.text }}{% endautoescape %}</div>
+			</div>
+		{% endfor %}				
+	</ul>
+  </div>
+
+
+
+{% endblock %}
+

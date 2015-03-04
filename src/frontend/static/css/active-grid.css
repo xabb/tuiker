@@ -1,0 +1,94 @@
+/*!
+ * Active grid component
+ * Based on bootstrap
+ */
+.atg-toolbar {
+  padding: 5px;
+/*  border: 1px solid; */
+}
+/* TABLE */
+
+/*
+.atg-table {
+  width: 100%;
+  border: 2px solid;
+}
+*/
+
+/* THEAD */
+/* TFOOT */
+/* TBODY */
+/* TR */
+.atg-row {
+  width: 100%;
+}
+.atg-row-selected {
+  background-color: #dddddd;
+}
+.atg-empty-row {
+  width: 100%;
+}
+/* TD */
+/*
+.atg-cell {
+  padding: 5px;
+}
+.atg-empty-cell {
+  padding: 5px;
+}
+*/
+
+/* TEST: background */
+/*
+.atg-header .atg-cell {
+  background-color: #DDD;
+}
+*/
+
+.atg-group-row {
+  font-weight: bold;
+}
+
+
+
+/* Allows to only show content ellipsis */
+.atg-content-ellipsis {
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* page indicator container */
+.atg-page-indicator {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.atg-registers-indicator {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Loading indicator
+ * TODO: media query for showing on small devices
+ * */
+.atg-loading-div {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: auto;
+  z-index: 101;
+  padding: 6px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid !important;
+  font-size: 11px;
+}
+
+.atg-header-margin {
+  margin-left: 10px;
+}
+
+.atg-header-sortable {
+  cursor: pointer;
+}
+

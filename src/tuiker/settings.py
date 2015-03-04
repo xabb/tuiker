@@ -84,7 +84,7 @@ INSTALLED_APPS = (
 #     'allauth.socialaccount.providers.google',
 #     'allauth.socialaccount.providers.openid',
 #     'allauth.socialaccount.providers.persona',
-#     'allauth.socialaccount.providers.twitter',
+    'allauth.socialaccount.providers.twitter',
 
     # TODO: review for improvements
 #    'smart_selects',

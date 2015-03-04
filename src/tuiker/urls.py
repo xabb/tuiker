@@ -49,7 +49,7 @@ urlpatterns = patterns('',
     url(r'^$', views.index, name='index'),
 
 #    url(r'^geolite/', include('geolite.urls', namespace="geolite")),
-#    url(r'^colectivo/', include('colectivo.urls', namespace="colectivo")),
+    url(r'^tuiker/', include('frontend.urls', namespace="frontend")),
 
     # TODO: improve for considering autocmplete fields
 #    url(r'^chaining/', include('smart_selects.urls')),

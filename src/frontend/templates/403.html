@@ -1,0 +1,25 @@
+{% extends 'frontend/base.html' %}
+
+{% load i18n %}
+
+
+{% block title %}{% trans "Access forbidden" %}{% endblock %}
+
+{% block bootstrap3_title %}{% trans "Access forbidden" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li><a href="{% url "index" %}">{% trans "Home" %}</a></li>
+<li class="active">{% autoescape off %}{% trans "Access forbidden" %}{% endautoescape %}</li>
+{% endblock %}
+
+
+
+{% block content %}
+
+	<h1>{% trans "Forbidden access" %}</h1>
+	<p>{% trans "You don't have permission for accessing this page." %}</p>
+	<p>{% trans "Please, contact the administrator." %}</p>
+</div>
+
+{% endblock %}
+

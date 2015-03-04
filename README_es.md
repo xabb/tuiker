@@ -28,6 +28,10 @@ Instalar tuiker
 	
 	pip install -r requirements.txt
 
+- Instalar la librería de twitter.
+	* Bajarse el tgz de http://mike.verdone.ca/twitter/ y descomprimir
+	* usar: python setup.py install
+
 - Entrar en el directorio src/tuiker
 - Asegurarse de que el proceso puede escribir en los directorios (normalmente chmod 755 pero cada cual que use lo que le convenga).
 	* data
