@@ -81,7 +81,11 @@ Instalar tuiker
 	
 		
 
-	
-	
+Reconstruir modelo de datos
+===
+
+	* python manage.py makemigrations frontend
+	* manage.py sqlmigrate frontend 0001	
+	* manage.py migrate	
 	
 	
