@@ -15,6 +15,8 @@ Instalar python, django y sus dependencias
 	* Windows: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows (lo siento, hay que leer)
 	* Mac: tengo una profunda ignorancia sobre el tema pero si alguien me regala un Mac podré ponerle remedio :-P
 
+- Instalar paquetes de referencia para compilar
+	* build-essential & python-dev
 
 
 Instalar tuiker
